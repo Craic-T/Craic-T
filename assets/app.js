@@ -8,7 +8,9 @@
 // any CSS you import will output into a single css file (app.css in this case)
 import './styles/app.css';
 
+import 'jquery';
 const $ = require('jquery');
+global.$ = global.jQuery = $;
 
 // start the Stimulus application
 import '@popperjs/core';
