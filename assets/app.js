@@ -12,8 +12,10 @@ import 'jquery';
 const $ = require('jquery');
 global.$ = global.jQuery = $;
 
-// start the Stimulus application
-import '@popperjs/core';
-import 'bootstrap';
+import './script.js';
 
-import 'bootstrap/dist/css/bootstrap.min.css';
+// start the Stimulus application
+// import '@popperjs/core';
+// import 'bootstrap';
+
+// import 'bootstrap/dist/css/bootstrap.min.css';
