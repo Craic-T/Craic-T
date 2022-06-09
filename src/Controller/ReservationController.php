@@ -11,6 +11,7 @@ class ReservationController extends AbstractController
     #[Route('/reservation', name: 'reservation')]
     public function index(): Response
     {
+
         return $this->render('reservation/reservation.html.twig', [
             'controller_name' => 'ReservationController',
         ]);

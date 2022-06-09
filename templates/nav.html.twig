@@ -29,7 +29,7 @@
         <li><a href=''>Politique de confidentialité</a></li>
         <li><a href=''>Gestion des Cookies</a></li>
         <li><a href=''>Mentions légales</a></li>
-        {% if is_granted('ROLE_ADMIN') %}
+        {% if is_granted('ROLE_ADMIN') or is_granted('ROLE_EMPLOYE') %}
             <li><a href=''>Administration</a></li>
         {% endif %}
     </ul>
